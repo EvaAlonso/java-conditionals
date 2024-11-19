@@ -10,14 +10,27 @@ public class TrafficLights {
 
         //Cambia el valor de la variable, corre el programa y mira el resultado 
         String color = "gris";
-        if (color == "verde") {
-            System.out.println("Puedes seguir");
-        } else if (color == "amarillo"){
-            System.out.println("Ten cuidado");
-        } else if (color == "rojo"){
-            System.out.println("¡¡¡Para!!!");
-        } else {
-            System.out.println("El semáforo está dañado");
+        //if (color == "verde") {
+        //    System.out.println("Puedes seguir");
+        //} else if (color == "amarillo"){
+        //    System.out.println("Ten cuidado");
+        //} else if (color == "rojo"){
+        //    System.out.println("¡¡¡Para!!!");
+        //} else {
+        //    System.out.println("El semáforo está dañado");
+        //}
+        switch (color){
+            case "verde":
+                System.out.println("Puedes seguir");
+                break;
+            case "amarillo":
+                System.out.println("Ten cuidado");
+                break;
+            case "rojo":
+                System.out.println("¡¡¡Para!!!");
+                break;
+            default:
+                System.out.println("El semáforo está dañado");
         }
     }
     
