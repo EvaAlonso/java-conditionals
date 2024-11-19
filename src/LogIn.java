@@ -17,5 +17,7 @@ public class LogIn {
         } else {
             System.out.println("Nombre de usuario o contraseña incorrecta");
         }
+
+        myObj.close();
     }
 }
